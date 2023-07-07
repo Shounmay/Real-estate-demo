@@ -5,9 +5,9 @@ import node_geocoder from 'node-geocoder';
 dotenv.config();
 export const DATABASE_URI = process.env.DATABASE_URI;
 
-export const AWS_ACCESS_KEY = process.env.AWS_ACCESS_KEY;
+export const AWS_ACCESS_KEY = process.env.AWS_ACCESS_ID;
 
-export const AWS_SECRET_KEY = process.env.AWS_SECRET_KEY;
+export const AWS_SECRET_KEY = process.env.AWS_SECRET_ID;
 
 export const EMAIL_FROM = 'ahujavaibhav825@gmail.com';
 const awsConfig = {
