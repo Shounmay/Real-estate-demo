@@ -1,25 +1,25 @@
 {
-  "name": "real-estate",
-  "version": "1.0.0",
-  "description": "<h1 align=\"center\">REAL ESTATE MERN WEB</h1>\r <br/>",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ./server/server.js",
-    "build": "if-env TYPE=server && (cd server && npm install ) || (cd client && npm install)",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vaibhav5140/Real-estate-MERN.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vaibhav5140/Real-estate-MERN/issues"
-  },
-  "homepage": "https://github.com/vaibhav5140/Real-estate-MERN#readme",
-  "dependencies": {
-    "if-env": "^1.0.4"
-  }
+	"name": "real-estate",
+	"version": "1.0.0",
+	"description": "<h1 align=\"center\">REAL ESTATE MERN WEB</h1>\r <br/>",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./server/server.js",
+		"build-backend": "cd server && npm install",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vaibhav5140/Real-estate-MERN.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vaibhav5140/Real-estate-MERN/issues"
+	},
+	"homepage": "https://github.com/vaibhav5140/Real-estate-MERN#readme",
+	"dependencies": {
+		"if-env": "^1.0.4"
+	}
 }
