@@ -26,5 +26,5 @@ const options = {
 	formatter: null,
 };
 export const GOOGLE_GEOCODER = node_geocoder(options);
-export const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY;
+export const JWT_SECRET_KEY = process.env.JWT_SECRET_ID;
 export const CLIENT_URL = 'http://localhost:3000';
